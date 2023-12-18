@@ -23,9 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Service.Memory(net6.0)", "MetaFrm.Service.MemoryService(net6.0)\MetaFrm.Service.Memory(net6.0).csproj", "{63D7CAC5-901B-4927-805B-4A461B36A888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Service.MemoryService(net6.0)", "MetaFrm.Service.MemoryService(net6.0)\MetaFrm.Service.MemoryService(net6.0).csproj", "{63D7CAC5-901B-4927-805B-4A461B36A888}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Service.Memory(net7.0)", "MetaFrm.Service.MemoryService(net7.0)\MetaFrm.Service.Memory(net7.0).csproj", "{C20E147D-2257-4911-A9A1-2EE4E6BFC8D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Service.MemoryService(net7.0)", "MetaFrm.Service.MemoryService(net7.0)\MetaFrm.Service.MemoryService(net7.0).csproj", "{C20E147D-2257-4911-A9A1-2EE4E6BFC8D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
