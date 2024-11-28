@@ -7,9 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{98F5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{C68ECD4E-F03B-4A9E-AA3E-FAF8E5A368C9}"
 	ProjectSection(SolutionItems) = preProject
-		.github\workflows\build_6.0.yml = .github\workflows\build_6.0.yml
-		.github\workflows\build_7.0.yml = .github\workflows\build_7.0.yml
 		.github\workflows\build_8.0.yml = .github\workflows\build_8.0.yml
+		.github\workflows\build_9.0.yml = .github\workflows\build_9.0.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6304A0A3-9F2E-4241-AEA9-D48709E4EF47}"
@@ -24,11 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Service.MemoryService(net6.0)", "MetaFrm.Service.MemoryService(net6.0)\MetaFrm.Service.MemoryService(net6.0).csproj", "{63D7CAC5-901B-4927-805B-4A461B36A888}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Service.MemoryService(net7.0)", "MetaFrm.Service.MemoryService(net7.0)\MetaFrm.Service.MemoryService(net7.0).csproj", "{C20E147D-2257-4911-A9A1-2EE4E6BFC8D6}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Service.MemoryService(net8.0)", "MetaFrm.Service.MemoryService(net8.0)\MetaFrm.Service.MemoryService(net8.0).csproj", "{D1773741-49C8-43A6-922D-16178AB47723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaFrm.Service.MemoryService(net9.0)", "MetaFrm.Service.MemoryService(net9.0)\MetaFrm.Service.MemoryService(net9.0).csproj", "{56DE9A35-FDE3-4427-8C31-A4E9B4611497}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,18 +33,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63D7CAC5-901B-4927-805B-4A461B36A888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63D7CAC5-901B-4927-805B-4A461B36A888}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63D7CAC5-901B-4927-805B-4A461B36A888}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63D7CAC5-901B-4927-805B-4A461B36A888}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C20E147D-2257-4911-A9A1-2EE4E6BFC8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C20E147D-2257-4911-A9A1-2EE4E6BFC8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C20E147D-2257-4911-A9A1-2EE4E6BFC8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C20E147D-2257-4911-A9A1-2EE4E6BFC8D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D1773741-49C8-43A6-922D-16178AB47723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D1773741-49C8-43A6-922D-16178AB47723}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1773741-49C8-43A6-922D-16178AB47723}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1773741-49C8-43A6-922D-16178AB47723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56DE9A35-FDE3-4427-8C31-A4E9B4611497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DE9A35-FDE3-4427-8C31-A4E9B4611497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DE9A35-FDE3-4427-8C31-A4E9B4611497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DE9A35-FDE3-4427-8C31-A4E9B4611497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

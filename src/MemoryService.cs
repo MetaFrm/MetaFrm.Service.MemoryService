@@ -1,4 +1,4 @@
-﻿using MetaFrm.Diagnostics;
+﻿using Microsoft.Extensions.Logging;
 using System.Collections;
 
 namespace MetaFrm.Service
@@ -8,7 +8,7 @@ namespace MetaFrm.Service
     /// </summary>
     public class MemoryService : IService
     {
-        private readonly Hashtable Hashtable = new();
+        private readonly Hashtable Hashtable = [];
 
         /// <summary>
         /// 생성자 입니다.
@@ -31,12 +31,12 @@ namespace MetaFrm.Service
             }
             catch (MetaFrmException exception)
             {
-                DiagnosticsTool.MyTrace(exception);
+                Factory.Logger.LogError(exception, "{Message}", exception.Message);
                 return new Response(exception);
             }
             catch (Exception exception)
             {
-                DiagnosticsTool.MyTrace(exception);
+                Factory.Logger.LogError(exception, "{Message}", exception.Message);
                 return new Response(exception);
             }
 
