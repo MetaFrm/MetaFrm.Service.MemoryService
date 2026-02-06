@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using System.Collections.Concurrent;
+﻿using System.Collections.Concurrent;
 
 namespace MetaFrm.Service
 {
@@ -31,8 +30,7 @@ namespace MetaFrm.Service
             }
             catch (Exception exception)
             {
-                if (Factory.Logger.IsEnabled(LogLevel.Error))
-                    Factory.Logger.LogError(exception, "{Message}", exception.Message);
+                Factory.Logger.Error(exception, "{0}", exception.Message);
                 return new Response(exception);
             }
 
